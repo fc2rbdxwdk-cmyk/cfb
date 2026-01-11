@@ -1,0 +1,12 @@
+/* Component-specific styles and micro-interactions */
+.brand{font-weight:700;color:var(--accent-2)}
+.nav .icon-btn{background:transparent;border:0;color:var(--muted);position:relative}
+.nav .profile-btn{background:var(--accent);border:0;padding:8px 10px;border-radius:8px}
+.ticker{animation:fadeIn 600ms ease;display:flex;align-items:center}
+.spotlight{background:linear-gradient(90deg,var(--accent),var(--accent-2));color:#071127}
+.carousel-track{height:72px;display:flex;align-items:center;justify-content:center}
+.player-header{display:flex;align-items:center;gap:12px}
+.player-avatar{width:72px;height:72px;border-radius:12px;background:linear-gradient(90deg,#fff1,#fff3);display:flex;align-items:center;justify-content:center}
+.player-rating{margin-left:auto;font-size:18px;font-weight:700}
+
+@keyframes fadeIn{from{opacity:0;transform:translateY(-6px)}to{opacity:1;transform:none}}

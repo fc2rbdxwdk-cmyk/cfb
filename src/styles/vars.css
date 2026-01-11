@@ -1,0 +1,18 @@
+:root{
+  --bg:#0f1724;
+  --panel:#0b1220;
+  --muted:#9aa4b2;
+  --accent:#ff6b6b;
+  --accent-2:#4f46e5;
+  --glass: rgba(255,255,255,0.03);
+  --card-radius:12px;
+  --container-pad:18px;
+}
+
+@media (prefers-color-scheme: light){
+  :root{
+    --bg:#f7fafc;
+    --panel:#ffffff;
+    --muted:#475569;
+  }
+}
